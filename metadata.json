@@ -1,0 +1,8 @@
+{
+  "name": "PRO",
+  "description": "Premium AI-powered rewards app with integrated referral, wallet, and task management systems. Features a Gemini-powered Earning Assistant.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
