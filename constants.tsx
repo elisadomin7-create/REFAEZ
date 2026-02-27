@@ -15,7 +15,8 @@ import {
   Headset,
   Palette,
   Search,
-  Crown
+  Crown,
+  ShieldCheck
 } from 'lucide-react';
 
 export const INITIAL_SETTINGS = {
@@ -55,4 +56,5 @@ export const ADMIN_NAVIGATION = [
   { label: 'User Controller', icon: <Search size={20} />, path: '/admin/search' },
   { label: 'Premium', icon: <Crown size={20} />, path: '/admin/premium' },
   { label: 'System Config', icon: <Settings size={20} />, path: '/admin/system-config' },
+  { label: 'Pay & Verify', icon: <ShieldCheck size={20} />, path: '/admin/payment-config' },
 ];

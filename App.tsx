@@ -16,6 +16,7 @@ import AdminCustomizer from './pages/AdminCustomizer';
 import AdminUserSearch from './pages/AdminUserSearch';
 import AdminPremium from './pages/AdminPremium';
 import AdminSystemConfig from './pages/AdminSystemConfig';
+import AdminPaymentConfig from './pages/AdminPaymentConfig';
 import AdminUsers from './pages/AdminUsers';
 import AdminTasks from './pages/AdminTasks';
 import AdminDeposits from './pages/AdminDeposits';
@@ -39,6 +40,7 @@ const AppContent: React.FC = () => {
         case '/admin/search': return <AdminUserSearch />;
         case '/admin/premium': return <AdminPremium />;
         case '/admin/system-config': return <AdminSystemConfig />;
+        case '/admin/payment-config': return <AdminPaymentConfig />;
         case '/admin/users': return <AdminUsers />;
         case '/admin/tasks': return <AdminTasks />;
         case '/admin/withdrawals': return <AdminDeposits />;
